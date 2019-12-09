@@ -54,8 +54,8 @@
         $f1 = fopen($file_1, "a");
         $f2 = fopen($file_2, "a");
         // 新しい人物をファイルに追加します
-        @fwrite($f1, $id."@u-aizu.ac.jp , ".$name."(".$name_sub.")\n");
-        @fwrite($f2, $id."@u-aizu.ac.jp, ");
+        @fwrite($f1, $id."@hoge.com , ".$name."(".$name_sub.")\n");
+        @fwrite($f2, $id."@hoge.com, ");
         // 結果をファイルに書き出します
         fclose($f1);
         fclose($f2);
